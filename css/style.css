@@ -45,7 +45,7 @@ body{
 .container{
     width: var(--container-width-lg);
     max-width: 1800px;
-    margin-inline: auto;
+    margin:0 auto;
 }
 
 section{
@@ -592,10 +592,12 @@ nav button#close__nav-btn{
     display:grid;
     place-items:center;
     height: 100vh;
+    
 }
 
 .form__section-container{
     width: var(--form-width);
+    
 }
 
 .alert__message{
