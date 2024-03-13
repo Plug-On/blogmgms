@@ -30,7 +30,7 @@
     appearance: 0;
     list-style:none;
     text-decoration: none;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -461,7 +461,7 @@ nav button#close__nav-btn{
 
 
 
-@media screen and (max-width:680px){
+@media screen and (max-width:600px){
 
     section{
         margin-top: 2rem;
@@ -501,6 +501,10 @@ nav button#close__nav-btn{
 
     .singlepost__container{
         background: transparent;
+        padding: 0;
+    }
+
+    .form__section-container{
         padding: 0;
     }
 }
